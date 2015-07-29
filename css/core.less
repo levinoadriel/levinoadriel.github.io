@@ -1,0 +1,36 @@
+ // background:
+ //     url(sweettexture.jpg)    /* image */
+ //     top center / 200px 200px /* position / size */
+ //     no-repeat                /* repeat */
+ //     fixed                    /* attachment */
+ //     padding-box              /* origin */
+ //     content-box              /* clip */
+ //     red;                     /* color */
+
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  position: relative;
+}
+
+.bg-darken {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.bg-pattern {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: url('/images/pattern-bg.png') top left repeat fixed transparent;
+}
