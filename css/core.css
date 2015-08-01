@@ -23,3 +23,19 @@ body {
   bottom: 0;
   background: url('/images/pattern-bg.png') top left repeat fixed transparent;
 }
+
+.thumbnail {
+  margin-bottom: 100px;
+}
+
+.thumbnail > .img {
+  width: 100%;
+  height: 230px;
+  overflow: hidden;
+  border-bottom: solid 2px #ecf0f1;
+}
+
+.thumbnail > .img > img {
+  width: 100%;
+  height: auto;
+}
