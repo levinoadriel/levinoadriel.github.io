@@ -35,7 +35,57 @@ body {
   border-bottom: solid 2px #ecf0f1;
 }
 
-.thumbnail > .img > img {
+.thumbnail > .img img {
   width: 100%;
   height: auto;
 }
+
+a.image-popup {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: none;
+  z-index: 3;
+  font-size: 46px;
+  vertical-align: middle;
+  text-align: center;
+  margin-top: 92px;
+  color: #fff;
+  opacity: 0.9;
+}
+
+.thumbnail > .img {
+  position: relative;
+}
+
+.thumbnail .overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(0,0,0,0.3);
+  display: none;
+  z-index: 2;
+  /*cursor: pointer;*/
+}
+
+.price {
+  font-size: 1.5em;
+}
+
+/*.thumbnail .overlay:before {
+  font-family: "FontAwesome";
+  content: '\f00e';
+  font-size: 46px;
+  color: #fff;
+  display: inline-block;
+  top: 50%;
+  margin-top: -23px;
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  opacity: 0.9;
+}*/
